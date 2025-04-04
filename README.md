@@ -94,4 +94,4 @@ Para que o frontend consiga se comunicar com a API, é necessário configurar o 
 ## ▶️ Como rodar o projeto
 - Clone este repositório.
 - Inicie a API dinamica_de_equipe_api (ela deve estar rodando em localhost:3000).
-- Abra o arquivo index.html no navegador do seu browser:
+- Abra o arquivo index.html no navegador do seu browser.
