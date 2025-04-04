@@ -48,6 +48,18 @@ Criar uma aplicação web simples que consuma a API REST `dinamica_de_equipe_api
 
 > Se um review for preenchido, ele será salvo automaticamente junto com a dinâmica.
 
+
+### Página exclusiva para adicionar um review (`review.html`)
+
+- ✅ Permite ao usuário enviar uma avaliação **sem precisar editar a dinâmica**.
+- ✅ Mostra um menu dropdown com todas as dinâmicas disponíveis.
+- ✅ Permite preencher:
+  - Comentário (opcional)
+  - Nota (opcional, entre 1 e 5)
+- ✅ Caso nenhum campo seja preenchido, a requisição não é enviada.
+
+> Essa página é ideal para permitir que usuários façam reviews em dinâmicas já cadastradas, sem modificar seus dados.
+
 ---
 
 ## 🔌 Comunicação com a API
