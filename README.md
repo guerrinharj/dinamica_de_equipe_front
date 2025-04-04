@@ -1,6 +1,6 @@
 # 🌐 Frontend - Dinâmicas de Equipe
 
-Este projeto é uma interface web desenvolvida com **HTML**, **CSS** e **JavaScript puro**, que consome os dados da API Rails chamada **[`dinamica_de_equipe_api`](https://github.com/guerrinharj/dinamica_de_equipe_api)**.  
+Este projeto é uma interface web desenvolvida com **HTML**, **CSS** e **JavaScript (ES6) puro** que desenvolvi como parte de um desafio para a Gigalink. Ele consome os dados da API Rails chamada **[`dinamica_de_equipe_api`](https://github.com/guerrinharj/dinamica_de_equipe_api)**.  
 A aplicação permite o gerenciamento de **dinâmicas de equipe** com a possibilidade de avaliar cada uma delas.
 
 ---
