@@ -48,10 +48,11 @@ function salvarDinamica(e) {
         return res.json();
     })
     .then(data => {
-        const comentario = document.getElementById('comentario').value;
+        const comentario = document.getElementById('comentario').value.trim();
         const nota = parseInt(document.getElementById('nota').value);
 
-        if (comentario && nota) {
+        // Só cria review se os dois campos forem válidos
+        if (comentario && nota >= 1 && nota <= 5) {
             return fetch(`${API_BASE}/${data.id}/reviews`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
